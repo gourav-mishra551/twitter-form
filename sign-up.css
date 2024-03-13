@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-up{
+ width: 750px;
+  height: 800px;
+  border: 1px solid #536471;
+  border-radius: 25px;
+  padding:  0 30px;
+  }
+  .bird{
+    display: flex;
+    justify-content: center;
+  }
+  .small-bird {
+    width: 3.5rem;
+    fill: #1da1f2;
+   }
+  h4{
+  font-family: Segoe UI;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px 0;
+  
+  }
+  h5{
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 20px 0;
+  }
+  form a{
+    color: #1da1f2;
+    text-decoration: none;
+  }
+  .sign-up-p{
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #536471;
+  }
+  #month{
+  width: 312px;
+  height: 70px;
+  top: 566px;
+  left: 40px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  }
+  
+  form input {
+  padding-left: 30px;
+  width: 670px;
+  height: 70px;
+  color: #536471;
+  top: 181px;
+  left: 40px;
+  border-radius: 6px;
+  border-color: 1px solid #536471;
+  
+  } 
+  ::placeholder{
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+   }
+  
+  .select{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  #day{
+  width: 159px;
+  height: 70px;
+  top: 566px;
+  left: 372px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  
+  }
+  #year{
+    width: 159px;
+    height: 70px;
+    top: 566px;
+    left: 372px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    
+  }
+  .button{
+  width: 670px;
+  height: 60px;
+  top: 700px;
+  left: 40px;
+  border-radius: 76px;
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2 !important;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 1rem;
+  }
+  
+  
